@@ -22,7 +22,7 @@ const sendOpt = asyncHandler(async (req, res) => {
 try {
   client.messages
     .create({
-        body: `HI your otp for login is ${customOTP}`,
+        body: `HI your otp for login on UDHARI is ${customOTP}`,
         from: '+12078027983',
         to: `+91${phoneNumber}`
     })
